@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo img {
+  width: 148px;
+  height: 40px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.sbtn {
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.sbtn.red {
+  background-color: red;
+  border: none;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .sbtn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.hero {
+  background-image: url(Assets/main-bg.jpg);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.lbtn {
+  background-color: red;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+
+.trending {
+  padding: 2rem;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: 270px;
+  gap: 20px;
+}
+
+.card {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .text h1 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .lbtn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .trending-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 12px;
+  
+  }
+
+  .card {
+    font-size: 1.2rem;
+  }
+}
