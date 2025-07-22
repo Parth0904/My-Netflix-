@@ -6,7 +6,7 @@ A responsive clone of the official Netflix landing page built with HTML and CSS.
 
 ## 🔗 Live Preview
 
-[Click here to view the project live](https://parth0904.github.io/Netflix-clone/))  
+[Click here to view the project live](https://parth0904.github.io/My-Netflix-/))  
 _(Replace with your actual GitHub Pages link)_
 
 ## 📱 Features
