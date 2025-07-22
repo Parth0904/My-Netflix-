@@ -1,26 +1,33 @@
-# 👋 Hi, I'm Parth Londhe
+# Netflix Clone 🎬
 
-🚀 An 18-year-old self-taught developer with a passion for **Web Development** and a long-term mission to build an **AI-powered Cybersecurity App**.
+A responsive clone of the official Netflix landing page built with HTML and CSS. This project was created for practice and educational purposes.
 
-### 👨‍💻 What I'm Doing:
-- Learning full-stack Web Development (currently focused on **HTML**, **CSS**, and **JavaScript**)
-- Taking on **freelance projects** to sharpen real-world skills
-- Building a strong foundation in **Cybersecurity**
-- Actively sharing progress and updates on [LinkedIn](https://www.linkedin.com/)
 
-### 🛠️ Tech Stack:
-- HTML, CSS (in progress)
-- JavaScript (upcoming)
-- Git & GitHub for version control
 
-### 📁 Repositories:
-- `Web-Dev/` → All my completed client work and personal projects
-- `my-learnings` (branch) → Daily learning progress, mini projects, practice files
+## 🔗 Live Preview
 
-### 🧠 Future Goals:
-- Become a skilled full-stack developer
-- Build open-source tools that solve real problems
-- Launch a cybersecurity startup
+[Click here to view the project live](https://yourusername.github.io/netflix-clone/)  
+_(Replace with your actual GitHub Pages link)_
+
+## 📱 Features
+
+- Fully responsive layout
+- Language and sign-in header
+- Background hero section with overlay
+- Trending section with grid layout
+- Styled buttons and typography
+- Clean UI inspired by Netflix
+
+## 🚀 Tech Stack
+
+- HTML5  
+- CSS3 (Flexbox & Grid)  
+- Font Awesome (if used)  
+- [Optional] JavaScript (if added later)
+
+
+
+
 
 ---
 
